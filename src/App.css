@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background: #1a1a1a;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  background: transparent;
+  pointer-events: auto !important;
+}
